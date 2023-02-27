@@ -1,0 +1,16 @@
+C:\Users\deser\workspace\csharp\Guessing-Games\GuessingGames\bin\Debug\net5.0\GuessingGames.exe
+C:\Users\deser\workspace\csharp\Guessing-Games\GuessingGames\bin\Debug\net5.0\GuessingGames.deps.json
+C:\Users\deser\workspace\csharp\Guessing-Games\GuessingGames\bin\Debug\net5.0\GuessingGames.runtimeconfig.json
+C:\Users\deser\workspace\csharp\Guessing-Games\GuessingGames\bin\Debug\net5.0\GuessingGames.runtimeconfig.dev.json
+C:\Users\deser\workspace\csharp\Guessing-Games\GuessingGames\bin\Debug\net5.0\GuessingGames.dll
+C:\Users\deser\workspace\csharp\Guessing-Games\GuessingGames\bin\Debug\net5.0\ref\GuessingGames.dll
+C:\Users\deser\workspace\csharp\Guessing-Games\GuessingGames\bin\Debug\net5.0\GuessingGames.pdb
+C:\Users\deser\workspace\csharp\Guessing-Games\GuessingGames\obj\Debug\net5.0\GuessingGames.csproj.AssemblyReference.cache
+C:\Users\deser\workspace\csharp\Guessing-Games\GuessingGames\obj\Debug\net5.0\GuessingGames.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\deser\workspace\csharp\Guessing-Games\GuessingGames\obj\Debug\net5.0\GuessingGames.AssemblyInfoInputs.cache
+C:\Users\deser\workspace\csharp\Guessing-Games\GuessingGames\obj\Debug\net5.0\GuessingGames.AssemblyInfo.cs
+C:\Users\deser\workspace\csharp\Guessing-Games\GuessingGames\obj\Debug\net5.0\GuessingGames.csproj.CoreCompileInputs.cache
+C:\Users\deser\workspace\csharp\Guessing-Games\GuessingGames\obj\Debug\net5.0\GuessingGames.dll
+C:\Users\deser\workspace\csharp\Guessing-Games\GuessingGames\obj\Debug\net5.0\ref\GuessingGames.dll
+C:\Users\deser\workspace\csharp\Guessing-Games\GuessingGames\obj\Debug\net5.0\GuessingGames.pdb
+C:\Users\deser\workspace\csharp\Guessing-Games\GuessingGames\obj\Debug\net5.0\GuessingGames.genruntimeconfig.cache
