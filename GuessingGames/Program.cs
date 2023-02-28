@@ -3,17 +3,20 @@
 Random r = new Random();
 int SecretNum = r.Next(1, 100);
 
-void NumberPrompt(string question, int secretNum)
+NumOfPrompts();
+
+void NumberPrompt(string question, int secretNum, int numOfPrompts)
 {
-    Console.Write(secretNum);
-    for (int i = 0; i < 4; i++)
+    Console.WriteLine(secretNum);
+    Console.WriteLine("");
+    for (int i = 0; i < numOfPrompts; i++)
     {
         Console.WriteLine($"{question}");
         string answer = Console.ReadLine();
         int parsedAnswer = int.Parse(answer);
         if (parsedAnswer == secretNum)
         {
-            Console.WriteLine("Correct Number");
+            Console.WriteLine("YOU WIN");
             return;
         }
         else
@@ -26,16 +29,35 @@ void NumberPrompt(string question, int secretNum)
             {
                 Console.WriteLine("Too High");
             }
-            Console.WriteLine($"You have {4 - (i + 1)} guesses remaining");
+            Console.WriteLine("");
+            Console.WriteLine($"You have {numOfPrompts - (i + 1)} guesses remaining");
         }
     }
 }
 
-NumberPrompt("Guess a Number", SecretNum);
-
-
-
-
+void NumOfPrompts()
+{
+    Console.WriteLine($"What difficulty level would you like to play? (Easy | Medium | Hard):");
+    string difficulty = Console.ReadLine().ToLower();
+    Console.WriteLine($"Then {difficulty.ToUpper()} you will get.");
+    Console.WriteLine("");
+    if (difficulty == "easy")
+    {
+        NumberPrompt("Guess a Number??", SecretNum, 8);
+    }
+    else if (difficulty == "medium")
+    {
+        NumberPrompt("Guess a Number??", SecretNum, 6);
+    }
+    else if (difficulty == "hard")
+    {
+        NumberPrompt("Guess a Number??", SecretNum, 4);
+    }
+    else
+    {
+        Console.WriteLine("No such category, check you spelling!!");
+    }
+}
 
 
 
